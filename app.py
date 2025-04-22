@@ -2,7 +2,6 @@
 # Para rodar, certifique-se de executar:
 # pip install streamlit pandas
 
-
 import streamlit as st
 import pandas as pd
 from datetime import datetime
@@ -27,7 +26,7 @@ def salvar_dados(novo_registro):
     df.to_csv(CSV_FILE, index=False)
 
 # Interface Streamlit
-st.set_page_config(page_title="Bem-Estar Sub11", layout="centered")
+st.set_page_config(page_title="Bem-Estar", layout="centered")
 st.markdown("""
     <style>
         .main {
@@ -42,7 +41,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("\U0001F535 Controle Diário de Bem-Estar - Sub11")
+st.title("\U0001F535 Controle Diário de Bem-Estar")
 
 # Formulário de entrada
 enviar = False
