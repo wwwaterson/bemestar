@@ -1,6 +1,2 @@
 streamlit
-<<<<<<< HEAD
 pandas
-=======
-pandas
->>>>>>> 070fee1706a4eb9c36f2ea32953e33ae55a5771b
