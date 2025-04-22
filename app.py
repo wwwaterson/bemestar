@@ -2,6 +2,7 @@
 # Para rodar, certifique-se de executar:
 # pip install streamlit pandas
 
+
 import streamlit as st
 import pandas as pd
 from datetime import datetime
@@ -26,7 +27,7 @@ def salvar_dados(novo_registro):
     df.to_csv(CSV_FILE, index=False)
 
 # Interface Streamlit
-st.set_page_config(page_title="Bem-Estar Futebol", layout="centered")
+st.set_page_config(page_title="Bem-Estar Sub11", layout="centered")
 st.markdown("""
     <style>
         .main {
